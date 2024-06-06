@@ -25,10 +25,11 @@
       },
       "externalBin": [],
       "icon": [
-        "icons/x1.png",
-        "icons/x2.png",
-        "icons/x3.png",
-        "icons/x4.png"
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
       ],
       "identifier": "com.csv-split",
       "longDescription": "",
