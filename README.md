@@ -1,7 +1,30 @@
-# Tauri + React + Typescript
+## ローカルでの実行方法
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+### 前提
+事前にrustのインストールが必要です。
 
-## Recommended IDE Setup
+[rustのインストール方法](https://www.rust-lang.org/ja/tools/install)
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+### アプリをインストールする方法
+
+1. 下記コマンドを実行します。
+
+```zsh
+yarn tauri build
+```
+2. アプリケーションに移動する指示が出るので移動を行います。以降はアプリをクリックすれば利用可能です。
+3. アプリを起動します。
+4. ファイルを選択して、分割したい行数を入力し、CSVを分割します。
+5. 選択したCSVと同階層に「output」というディレクトリが生成され、内部に分割したCSVが格納されます。
+
+### 1回のみ実行する方法
+
+1. 下記コマンドを実行します。
+
+```zsh
+yarn tauri dev
+```
+
+2. アプリが立ち上がります。
+3. ファイルを選択して、分割したい行数を入力し、CSVを分割します。
+4. 選択したCSVと同階層に「output」というディレクトリが生成され、内部に分割したCSVが格納されます。
